@@ -1,0 +1,21 @@
+.category {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  margin-top: 10rem;
+}
+
+.category__item {
+  &--title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  &__list {
+    font-weight: 200;
+    color: $color-grey-1;
+  }
+
+  ul li {
+    margin-bottom: 1rem;
+  }
+}

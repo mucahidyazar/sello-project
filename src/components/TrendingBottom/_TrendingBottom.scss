@@ -1,0 +1,55 @@
+.trending-bottom {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  margin-top: 10rem;
+
+  &__left {
+    position: relative;
+
+    &--content {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+
+      .trending__content--sale {
+        font-size: 2.4rem;
+      }
+
+      div:first-child {
+        color: $color-black-1;
+        font-weight: 200;
+      }
+
+      div:last-child {
+        font-size: 1.8rem;
+        color: $color-black-1;
+        font-weight: 200;
+      }
+    }
+  }
+
+  &__right {
+    position: relative;
+
+    &--content {
+      position: absolute;
+      top: 20%;
+      left: 10%;
+
+      .trending__content--sale {
+        font-size: 2.4rem;
+      }
+
+      div:first-child {
+        color: $color-black-1;
+        font-weight: 200;
+      }
+
+      div:last-child {
+        font-size: 1.8rem;
+        color: $color-black-1;
+        font-weight: 200;
+      }
+    }
+  }
+}

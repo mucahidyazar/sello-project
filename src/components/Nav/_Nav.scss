@@ -1,0 +1,47 @@
+#nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  position: relative;
+}
+
+.nav__logo {
+  position: relative;
+  font-size: 4rem;
+  font-weight: 800;
+
+  &--dot {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    width: 1rem;
+    height: 1rem;
+    background-color: #ff2600;
+    border-radius: 5rem;
+  }
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  margin-right: 50rem;
+
+  &--item {
+    padding: 1rem;
+  }
+
+  &--item:not(:first-child) {
+    font-weight: 200;
+  }
+}
+
+#nav img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+}

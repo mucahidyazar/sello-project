@@ -1,0 +1,55 @@
+header {
+  position: relative;
+  height: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #efefef;
+}
+
+.header__body {
+  width: 70%;
+
+  &--title {
+    margin-bottom: 2rem;
+    font-weight: 800;
+  }
+
+  &--body {
+    margin-bottom: 4rem;
+    font-weight: 200;
+  }
+
+  &--button {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+}
+
+.section__title {
+  position: absolute;
+  transform: rotateZ(-90deg) translate(0, -100%);
+  margin-left: 5%;
+
+  &--item {
+    font-size: 2.4rem;
+
+    &:last-child {
+      text-transform: uppercase;
+    }
+
+    &:not(:last-child) {
+      color: $color-grey-3;
+    }
+
+    &:first-child::after {
+      display: inline-block;
+      content: "";
+      border-bottom: 1px solid $color-grey-2;
+      width: 15rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

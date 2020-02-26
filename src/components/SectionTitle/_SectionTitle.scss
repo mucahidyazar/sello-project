@@ -1,0 +1,30 @@
+.trending__title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-90deg) translate(-45%, 0);
+  z-index: 10;
+
+  &--item {
+    font-size: 2.4rem;
+
+    &:last-child {
+      text-transform: uppercase;
+      font-weight: $font-bold;
+    }
+
+    &:not(:last-child) {
+      color: $color-grey-3;
+    }
+
+    &:first-child::after {
+      display: inline-block;
+      content: "";
+      border-bottom: 1px solid $color-grey-2;
+      width: 15rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

@@ -5,10 +5,15 @@ header {
   flex-direction: column;
   justify-content: center;
   background-color: #efefef;
+
+  .trending__title {
+    transform: rotate(-90deg) translate(-45%, -1090%);
+  }
 }
 
 .header__body {
   width: 70%;
+  position: relative;
 
   &--title {
     margin-bottom: 2rem;

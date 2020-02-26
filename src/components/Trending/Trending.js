@@ -1,5 +1,6 @@
 import React from "react";
 import Item from "./Item/Item";
+import SectionTitle from "../SectionTitle/SectionTitle";
 import trendingImage1 from "../../public/png/Bobbi_Chunky_Pom_Beanie-5.png";
 import trendingImage2 from "../../public/png/Bobbi_Chunky_Pom_Beanie-7.png";
 import trendingImage3 from "../../public/png/Bobbi_Chunky_Pom_Beanie-9.png";
@@ -9,8 +10,9 @@ import trendingImage6 from "../../public/png/Bobbi_Chunky_Pom_Beanie-10.png";
 
 export default function Trending() {
   return (
-    <div className="container">
-      <section className="trending">
+    <section className="trending">
+      <SectionTitle number="02" title="TRENDING" />
+      <section className="container">
         <div className="trending__header">
           <ul className="trending__header--right">
             <li className="nav__menu--item nav__menu--active">
@@ -32,10 +34,6 @@ export default function Trending() {
           <div className="trending__header--left">ALL PRODUCTS</div>
         </div>
         <div className="trending__body">
-          <div className="trending__title">
-            <span className="trending__title--item">02</span>
-            <span className="trending__title--item">Trending</span>
-          </div>
           <div className="t-catalog">
             <Item image={trendingImage1} />
             <Item image={trendingImage2} />
@@ -46,6 +44,6 @@ export default function Trending() {
           </div>
         </div>
       </section>
-    </div>
+    </section>
   );
 }

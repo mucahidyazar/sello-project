@@ -1,14 +1,12 @@
 import React from "react";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function Header() {
   return (
     <header>
-      <div className="section__title">
-        <span className="section__title--item">01</span>
-        <span className="section__title--item">Intro</span>
-      </div>
       <div className="container">
         <div className="header__body">
+          <SectionTitle number="01" title="INTRO" />
           <div className="header__body--title heading-4">
             SALE OFF! UP TO 70%
           </div>

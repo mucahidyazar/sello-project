@@ -4,6 +4,9 @@
 @import "./public/scss/base/variables";
 @import "./public/scss/base/utilities";
 
+//UTILITIES
+@import "./components/SectionTitle/SectionTitle";
+
 //COMPONENTS
 @import "./components/Nav/Nav";
 @import "./components/Header/Header";

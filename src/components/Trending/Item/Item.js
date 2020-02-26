@@ -2,14 +2,21 @@ import React from "react";
 
 export default function OurStoryItem(props) {
   return (
-    <div className="t-catalog__item">
-      <div className="t-catalog__item--top">
-        <img src={props.image} alt="Trending Image" />
-        <div>T-Shirt</div>
+    <div className="our-story-item__body--item">
+      <div className="our-story-image">
+        <img src={props.image} alt="" />
+        <div>-30%</div>
       </div>
-      <div className="t-catalog__item--bottom">
-        <div>Cuffed Beanie</div>
-        <div>$10.00</div>
+      <div className="our-story-body">
+        <div className="our-story-body__top">
+          <div>Denim Shell Top Ruffle</div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            voluptatum modi culpa nemo tempore sit, ad perferendis consectetur
+            voluptates? Quibusdam!
+          </div>
+          <div>Read More</div>
+        </div>
       </div>
     </div>
   );

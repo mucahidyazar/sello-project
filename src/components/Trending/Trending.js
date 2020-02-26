@@ -14,19 +14,19 @@ export default function Trending() {
         <div className="trending__header">
           <ul className="trending__header--right">
             <li className="nav__menu--item nav__menu--active">
-              <a href="#">T-Shirt</a>
+              <a href="/">T-Shirt</a>
             </li>
             <li className="nav__menu--item">
-              <a href="#">Pants</a>
+              <a href="/">Pants</a>
             </li>
             <li className="nav__menu--item">
-              <a href="#">Shoe</a>
+              <a href="/">Shoe</a>
             </li>
             <li className="nav__menu--item">
-              <a href="#">Jacket</a>
+              <a href="/">Jacket</a>
             </li>
             <li className="nav__menu--item">
-              <a href="#">Fashion</a>
+              <a href="/">Fashion</a>
             </li>
           </ul>
           <div className="trending__header--left">ALL PRODUCTS</div>

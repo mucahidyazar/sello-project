@@ -16,7 +16,9 @@ export default function Header() {
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.
           </div>
-          <div className="header__body--button">Shop Now</div>
+          <div className="header__body--button btn-sm">
+            <a href="/">Shop Now</a>
+          </div>
         </div>
       </div>
     </header>

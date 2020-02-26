@@ -15,7 +15,9 @@ export default function OurStoryItem(props) {
             voluptatum modi culpa nemo tempore sit, ad perferendis consectetur
             voluptates? Quibusdam!
           </div>
-          <div>Read More</div>
+          <div className="btn-sm">
+            <a href="/">Read More</a>
+          </div>
         </div>
       </div>
     </div>

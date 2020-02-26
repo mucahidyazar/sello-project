@@ -11,14 +11,18 @@ export default function TrendingBottom() {
           <div className="trending-bottom__left--content">
             <div>SUMMER SALE</div>
             <div className="trending__content--sale">UPTO 70% OFF NOW</div>
-            <div>SHOP NOW</div>
+            <div className="btn-sm">
+              <a href="/">SHOP NOW</a>
+            </div>
           </div>
         </div>
         <div className="trending-bottom__right">
           <div className="trending-bottom__right--content">
             <div>SUMMER SALE</div>
             <div className="trending__content--sale">UPTO 70% OFF NOW</div>
-            <div>SHOP NOW</div>
+            <div className="btn-sm">
+              <a href="/">SHOP NOW</a>
+            </div>
           </div>
           <img src={trendingBottom2} alt="" />
         </div>

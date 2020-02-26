@@ -34,6 +34,11 @@
     padding: 1rem;
     font-weight: 200;
     color: $color-light-1;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $color-black-1;
+    }
   }
 
   &--item:first-child {

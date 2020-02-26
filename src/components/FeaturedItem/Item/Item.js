@@ -15,16 +15,16 @@ export default function FeaturedItem(props) {
         <div className="featured-body__bottom">
           <div className="featured-body__bottom--left">
             <div className="first">
-              <i class="fas fa-warehouse"></i>
+              <i className="fas fa-warehouse"></i>
               <span>1200</span>
             </div>
             <div className="second">
-              <i class="fas fa-warehouse"></i>
+              <i className="fas fa-warehouse"></i>
               <span>1200</span>
             </div>
           </div>
           <div className="featured-body__bottom--right">
-            <i class="fas fa-warehouse"></i>
+            <i className="fas fa-warehouse"></i>
             <span>ADD TO CART</span>
           </div>
         </div>

@@ -19,7 +19,7 @@ export default function Slider() {
             <div className="slider__form">
               <input type="text" placeholder="Enter the email adress" />
               <button>
-                <i class="fas fa-warehouse"></i>Subscribe
+                <i className="fas fa-warehouse"></i>Subscribe
               </button>
             </div>
           </div>

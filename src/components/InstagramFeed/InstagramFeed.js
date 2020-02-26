@@ -21,7 +21,7 @@ export default function InstagramFeed() {
         <img src={instagramFeedImage1} alt="" />
       </div>
       <div className="instagram-feed__content">
-        <i class="fab fa-instagram"></i> Instagram Feed
+        <i className="fab fa-instagram"></i> Instagram Feed
       </div>
     </section>
   );

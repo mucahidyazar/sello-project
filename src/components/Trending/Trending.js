@@ -1,14 +1,11 @@
 import React from "react";
+import Item from "./Item/Item";
 import trendingImage1 from "../../public/png/Bobbi_Chunky_Pom_Beanie-5.png";
 import trendingImage2 from "../../public/png/Bobbi_Chunky_Pom_Beanie-7.png";
 import trendingImage3 from "../../public/png/Bobbi_Chunky_Pom_Beanie-9.png";
 import trendingImage4 from "../../public/png/Bobbi_Chunky_Pom_Beanie-6.png";
 import trendingImage5 from "../../public/png/Bobbi_Chunky_Pom_Beanie-8.png";
 import trendingImage6 from "../../public/png/Bobbi_Chunky_Pom_Beanie-10.png";
-import trendingImage7 from "../../public/png/Bobbi_Chunky_Pom_Beanie-7.png";
-import trendingImage8 from "../../public/png/Bobbi_Chunky_Pom_Beanie-8.png";
-import trendingImage9 from "../../public/png/Bobbi_Chunky_Pom_Beanie-9.png";
-import trendingImage10 from "../../public/png/Bobbi_Chunky_Pom_Beanie-10.png";
 
 export default function Trending() {
   return (
@@ -40,71 +37,12 @@ export default function Trending() {
             <span className="trending__title--item">Trending</span>
           </div>
           <div className="t-catalog">
-            <div className="t-catalog__item">
-              <div className="t-catalog__item--top">
-                <img src={trendingImage1} alt="Trending Image" />
-                <div>T-Shirt</div>
-              </div>
-              <div className="t-catalog__item--bottom">
-                <div>Cuffed Beanie</div>
-                <div>$10.00</div>
-              </div>
-            </div>
-
-            <div className="t-catalog__item">
-              <div className="t-catalog__item--top">
-                <img src={trendingImage2} alt="Trending Image" />
-                <div>T-Shirt</div>
-              </div>
-              <div className="t-catalog__item--bottom">
-                <div>Cuffed Beanie</div>
-                <div>$10.00</div>
-              </div>
-            </div>
-
-            <div className="t-catalog__item">
-              <div className="t-catalog__item--top">
-                <img src={trendingImage3} alt="Trending Image" />
-                <div>T-Shirt</div>
-              </div>
-              <div className="t-catalog__item--bottom">
-                <div>Cuffed Beanie</div>
-                <div>$10.00</div>
-              </div>
-            </div>
-
-            <div className="t-catalog__item">
-              <div className="t-catalog__item--top">
-                <img src={trendingImage4} alt="Trending Image" />
-                <div>T-Shirt</div>
-              </div>
-              <div className="t-catalog__item--bottom">
-                <div>Cuffed Beanie</div>
-                <div>$10.00</div>
-              </div>
-            </div>
-
-            <div className="t-catalog__item">
-              <div className="t-catalog__item--top">
-                <img src={trendingImage5} alt="Trending Image" />
-                <div>T-Shirt</div>
-              </div>
-              <div className="t-catalog__item--bottom">
-                <div>Cuffed Beanie</div>
-                <div>$10.00</div>
-              </div>
-            </div>
-
-            <div className="t-catalog__item">
-              <div className="t-catalog__item--top">
-                <img src={trendingImage6} alt="Trending Image" />
-                <div>T-Shirt</div>
-              </div>
-              <div className="t-catalog__item--bottom">
-                <div>Cuffed Beanie</div>
-                <div>$10.00</div>
-              </div>
-            </div>
+            <Item image={trendingImage1} />
+            <Item image={trendingImage2} />
+            <Item image={trendingImage3} />
+            <Item image={trendingImage4} />
+            <Item image={trendingImage5} />
+            <Item image={trendingImage6} />
           </div>
         </div>
       </section>

@@ -12,16 +12,19 @@ header {
 
   &--title {
     margin-bottom: 2rem;
-    font-weight: 800;
+    font-weight: $font-black;
   }
 
   &--body {
     margin-bottom: 4rem;
-    font-weight: 200;
+    font-weight: $font-light;
+    color: $color-black-2;
   }
 
   &--button {
     font-size: 1.8rem;
+    color: $color-black-2;
+    font-weight: $font-light;
     text-transform: uppercase;
   }
 }
@@ -36,6 +39,7 @@ header {
 
     &:last-child {
       text-transform: uppercase;
+      font-weight: $font-bold;
     }
 
     &:not(:last-child) {

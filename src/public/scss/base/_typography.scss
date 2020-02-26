@@ -1,9 +1,14 @@
 body {
   font-size: 1.6rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 
 .container {
   width: 60%;
   margin: auto;
 }
+
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
+$font-black: 900;

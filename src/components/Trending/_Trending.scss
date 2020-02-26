@@ -27,6 +27,7 @@
 
     &:last-child {
       text-transform: uppercase;
+      font-weight: $font-bold;
     }
 
     &:not(:last-child) {

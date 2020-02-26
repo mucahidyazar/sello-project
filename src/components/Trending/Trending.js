@@ -1,10 +1,10 @@
 import React from "react";
-import trendingImage1 from "../../public/png/Bobbi_Chunky_Pom_Beanie-1.png";
-import trendingImage2 from "../../public/png/Bobbi_Chunky_Pom_Beanie-2.png";
-import trendingImage3 from "../../public/png/Bobbi_Chunky_Pom_Beanie-3.png";
-import trendingImage4 from "../../public/png/Bobbi_Chunky_Pom_Beanie-4.png";
-import trendingImage5 from "../../public/png/Bobbi_Chunky_Pom_Beanie-5.png";
-import trendingImage6 from "../../public/png/Bobbi_Chunky_Pom_Beanie-6.png";
+import trendingImage1 from "../../public/png/Bobbi_Chunky_Pom_Beanie-5.png";
+import trendingImage2 from "../../public/png/Bobbi_Chunky_Pom_Beanie-7.png";
+import trendingImage3 from "../../public/png/Bobbi_Chunky_Pom_Beanie-9.png";
+import trendingImage4 from "../../public/png/Bobbi_Chunky_Pom_Beanie-6.png";
+import trendingImage5 from "../../public/png/Bobbi_Chunky_Pom_Beanie-8.png";
+import trendingImage6 from "../../public/png/Bobbi_Chunky_Pom_Beanie-10.png";
 import trendingImage7 from "../../public/png/Bobbi_Chunky_Pom_Beanie-7.png";
 import trendingImage8 from "../../public/png/Bobbi_Chunky_Pom_Beanie-8.png";
 import trendingImage9 from "../../public/png/Bobbi_Chunky_Pom_Beanie-9.png";
@@ -36,8 +36,8 @@ export default function Trending() {
         </div>
         <div className="trending__body">
           <div className="trending__title">
-            <span className="trending__title--item">01</span>
-            <span className="trending__title--item">Intro</span>
+            <span className="trending__title--item">02</span>
+            <span className="trending__title--item">Trending</span>
           </div>
           <div className="t-catalog">
             <div className="t-catalog__item">
@@ -53,7 +53,7 @@ export default function Trending() {
 
             <div className="t-catalog__item">
               <div className="t-catalog__item--top">
-                <img src={trendingImage1} alt="Trending Image" />
+                <img src={trendingImage2} alt="Trending Image" />
                 <div>T-Shirt</div>
               </div>
               <div className="t-catalog__item--bottom">
@@ -64,7 +64,7 @@ export default function Trending() {
 
             <div className="t-catalog__item">
               <div className="t-catalog__item--top">
-                <img src={trendingImage1} alt="Trending Image" />
+                <img src={trendingImage3} alt="Trending Image" />
                 <div>T-Shirt</div>
               </div>
               <div className="t-catalog__item--bottom">
@@ -75,7 +75,7 @@ export default function Trending() {
 
             <div className="t-catalog__item">
               <div className="t-catalog__item--top">
-                <img src={trendingImage1} alt="Trending Image" />
+                <img src={trendingImage4} alt="Trending Image" />
                 <div>T-Shirt</div>
               </div>
               <div className="t-catalog__item--bottom">
@@ -86,7 +86,7 @@ export default function Trending() {
 
             <div className="t-catalog__item">
               <div className="t-catalog__item--top">
-                <img src={trendingImage1} alt="Trending Image" />
+                <img src={trendingImage5} alt="Trending Image" />
                 <div>T-Shirt</div>
               </div>
               <div className="t-catalog__item--bottom">
@@ -97,7 +97,7 @@ export default function Trending() {
 
             <div className="t-catalog__item">
               <div className="t-catalog__item--top">
-                <img src={trendingImage1} alt="Trending Image" />
+                <img src={trendingImage6} alt="Trending Image" />
                 <div>T-Shirt</div>
               </div>
               <div className="t-catalog__item--bottom">

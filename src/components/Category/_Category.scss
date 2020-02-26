@@ -11,11 +11,11 @@
   }
 
   &__list {
-    font-weight: 200;
     color: $color-grey-1;
   }
 
   ul li {
     margin-bottom: 1rem;
+    font-weight: $font-light;
   }
 }

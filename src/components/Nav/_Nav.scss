@@ -32,10 +32,13 @@
 
   &--item {
     padding: 1rem;
+    font-weight: 200;
+    color: $color-light-1;
   }
 
-  &--item:not(:first-child) {
-    font-weight: 200;
+  &--item:first-child {
+    color: $color-black-1;
+    text-decoration: underline;
   }
 }
 

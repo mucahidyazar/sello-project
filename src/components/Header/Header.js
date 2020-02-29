@@ -4,9 +4,9 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 export default function Header() {
   return (
     <header>
+      <SectionTitle number="01" title="INTRO" />
       <div className="container">
         <div className="header__body">
-          <SectionTitle number="01" title="INTRO" />
           <div className="header__body--title heading-4">
             SALE OFF! UP TO 70%
           </div>

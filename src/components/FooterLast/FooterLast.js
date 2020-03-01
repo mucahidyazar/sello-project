@@ -9,16 +9,16 @@ export default function FooterLast() {
         </span>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">Product</a>
+            <a href="/">Product</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="/">Blog</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="/">Contact</a>
           </li>
         </ul>
       </footer>

@@ -52,3 +52,25 @@
     }
   }
 }
+
+@media only screen and(max-width: 76.8em) {
+  .trending__header {
+    flex-direction: column;
+
+    div {
+      order: 1;
+      text-align: center;
+    }
+    ul {
+      order: 2;
+    }
+  }
+}
+
+@media only screen and(max-width: 57.6em) {
+  .trending {
+    .trending__title {
+      top: -8rem;
+    }
+  }
+}

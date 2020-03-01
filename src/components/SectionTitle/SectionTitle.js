@@ -4,7 +4,7 @@ export default function SectionTitle(props) {
   return (
     <p className="trending__title">
       {props.number}
-      <hr />
+      <span></span>
       {props.title}
     </p>
   );

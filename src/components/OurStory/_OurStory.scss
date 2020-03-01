@@ -1,11 +1,13 @@
 .our-story-item__body {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   margin-top: 10rem;
   grid-gap: 3rem;
 }
 
 .our-story-item__body--item {
+  width: 100%;
+
   .our-story-image {
     position: relative;
 
@@ -112,6 +114,10 @@
 .our-story__item {
   &--top {
     margin-bottom: 2rem;
+
+    img {
+      width: 100%;
+    }
   }
 
   &--bottom {
@@ -123,6 +129,22 @@
       font-size: 16px;
       font-weight: $font-light;
       margin-bottom: 2rem;
+    }
+  }
+}
+
+@media only screen and(max-width: 57.6em) {
+  .our-story-item {
+    .trending__title {
+      top: -5rem;
+    }
+  }
+}
+
+@media only screen and(max-width: 25em) {
+  #header {
+    .trending__title {
+      top: 15%;
     }
   }
 }

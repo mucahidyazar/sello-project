@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "./Nav/Nav";
 import Header from "./Header/Header";
 import Trending from "./Trending/Trending";
 import TrendingBottom from "./TrendingBottom/TrendingBottom";
@@ -14,7 +13,6 @@ import FooterLast from "./FooterLast/FooterLast";
 export default function Sello() {
   return (
     <div className="sello">
-      <Nav />
       <Header />
       <Trending />
       <TrendingBottom />
